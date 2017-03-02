@@ -1,0 +1,2 @@
+class LinkedInAccount < ApplicationRecord
+end
