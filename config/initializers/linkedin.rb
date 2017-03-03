@@ -1,3 +1,5 @@
+require 'linkedin'
+
 LinkedIn.configure do |config|
   config.client_id     = '78g5ux857whnur'
   config.client_secret = 'HeLIlBlEyx4I9uyc'
