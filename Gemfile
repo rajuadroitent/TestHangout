@@ -45,6 +45,8 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem "linkedin-oauth2", "~> 1.0"
+  gem 'linkedin', '0.4.7'
+  gem 'hashie', '2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
