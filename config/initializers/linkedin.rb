@@ -1,4 +1,3 @@
-require 'linkedin-oauth2'
 
 LinkedIn.configure do |config|
   config.client_id     = '78g5ux857whnur'
