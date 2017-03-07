@@ -1,2 +1,7 @@
 <h1>Welcome</h1>
-<button>Register</button>
+<%if customer_signed_in? %>
+    <h1> <%=current_customer.email %> </h1>
+<%else%>
+    <%= link_to "<button>SignUp</button>".html_safe, new_customer_registration_path, :id=>"sign_up_btn", :class=>"inbox-sf-add-btn tip" %>
+    <%= link_to "<button>SignIn</button>".html_safe, new_customer_session_path, :id=>"sign_in_btn", :class=>"inbox-sf-add-btn tip" %>
+<%end%>

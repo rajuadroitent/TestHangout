@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :customer do
+    get 'customer_dashboard/index'
+  end
+
   devise_for :customers
   ActiveAdmin.routes(self)
   get 'sign_up/create'
