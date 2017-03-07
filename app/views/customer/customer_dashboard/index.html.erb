@@ -1,2 +1,6 @@
+
+<h1> <%=current_customer.email %> </h1>
+<%= link_to "<button>SignOutt</button>".html_safe, destroy_customer_session_path, :method => :delete, :id=>"sign_out_btn", :class=>"inbox-sf-add-btn tip" %>
+
 <%= link_to "<button>Linkedin</button>".html_safe, sign_up_create_path, :id=>"linked_in_btn", :class=>"inbox-sf-add-btn tip" %>
 
