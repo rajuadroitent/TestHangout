@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :customers
   ActiveAdmin.routes(self)
   get 'sign_up/create'
   get 'sign_up/get_auth_code'
