@@ -39,7 +39,8 @@ gem "linkedin-oauth2", "~> 1.0"
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
